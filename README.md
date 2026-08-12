@@ -53,7 +53,7 @@ is finalized.
 ## Repository Structure
 
 ```
-AgenticAIProject/
+Building-Agentic-AI-Systems-by-SDAIA-Academy/
 ├── README.md
 ├── .gitignore
 └── notebooks/
