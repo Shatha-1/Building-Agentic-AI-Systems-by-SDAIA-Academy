@@ -1,0 +1,78 @@
+# ============================================================
+# Secrets — never commit API keys or credentials
+# ============================================================
+.env
+.env.*
+*.env
+**/secrets.json
+**/credentials.json
+*_key.txt
+*_key.json
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# Jupyter / Colab
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+.virtual_documents/
+
+# ============================================================
+# Generated / local data (RAG knowledge base PDFs are created
+# at runtime by the notebooks — no need to version them)
+# ============================================================
+event_knowledge/
+*.pdf
+!docs/**/*.pdf
+
+# ============================================================
+# Vector store / embedding cache artifacts (if persisted locally)
+# ============================================================
+*.faiss
+*.index
+chroma_db/
+.cache/
+huggingface_cache/
+
+# ============================================================
+# LangSmith / LangChain local trace exports
+# ============================================================
+.langchain/
+langsmith_traces/
+
+# ============================================================
+# OS / editor cruft
+# ============================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
