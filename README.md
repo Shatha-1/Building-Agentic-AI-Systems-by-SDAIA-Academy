@@ -11,7 +11,7 @@
 - Raneem Abdullah Alsheddi
 - Jana Hamad Alhumaizi
 - Shatha Hamad Bin Mana
-- Sarah Abdulaziz Alkhudhiri
+- Sarah Abdulaziz
 
 ---
 
